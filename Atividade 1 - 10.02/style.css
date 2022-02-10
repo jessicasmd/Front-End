@@ -12,8 +12,8 @@ body{
 
 /*Título*/
 header{
-    background-color: #34cc62;
-    border: 3px solid #f50a0a;
+    background-color: #ba34cc;
+    border: 3px solid #e494e0;
     margin: 0;
 }
 /*Corpo do texto*/
@@ -46,7 +46,7 @@ footer{
     color:#11b4e6;
     text-decoration: underline
 }
-
+/*Centralização do vídeo*/
 .video{
     display: flex;
     flex-flow: row;
@@ -56,3 +56,20 @@ footer{
 }
 
 
+/* CONTATO */
+
+/*Alteração do campo titulo contato*/
+h1{
+    font-style: italic;
+    color: #f50aa7;
+}
+/*Alteração de cadastro do formulário*/
+label{
+    font-weight: bold;
+    color: #f50aa7;
+}
+ button{
+    background-color:#ff00b3;
+    border-color:#ff00c8;
+    color:white;     
+}
